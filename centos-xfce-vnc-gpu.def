@@ -1,6 +1,6 @@
 # This file is used to build an headles vnc image based on Centos
 Bootstrap: docker
-From: nvidia/cuda:10.1-cudnn7-devel-centos7
+From: nvidia/cuda:11.5.0-cudnn8-devel-centos7
 
 
 %environment
