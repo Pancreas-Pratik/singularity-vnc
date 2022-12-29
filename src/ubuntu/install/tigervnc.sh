@@ -2,4 +2,5 @@
 set -e
 
 echo "Install TigerVNC server"
-wget -qO- https://github.com/TigerVNC/tigervnc/archive/refs/tags/v1.12.0.tar.gz | tar xz --strip 1 -C /
+wget https://github.com/Pancreas-Pratik/singularity-vnc/raw/master/src/ubuntu/install/tigervncserver_1.12.0-1ubuntu1_amd64.deb
+apt install -y tigervncserver_1.12.0-1ubuntu1_amd64.deb
